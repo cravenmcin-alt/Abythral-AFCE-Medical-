@@ -24,13 +24,17 @@ Intelligence Layer: Integrated Google Gemini API using gemini-3-pro-preview for 
 Frontend Architecture: Built with React 19 and Tailwind CSS for a "glassmorphism" clinical interface.
 Visualization Engine: Utilized Recharts for multi-dimensional radar mapping and a custom SVG Geometry Engine to render state-space distortions.
 Multi-Modal Pipeline: Developed a base64-driven ingestion system that allows images (scans/charts) to be processed as part of the primary reasoning chain.
+
 Technical Stack
+
 Languages: TypeScript, HTML5, CSS3
 Frameworks: React 19
 AI Models: Gemini 3 Pro (Complex reasoning), Gemini 3 Flash (Fast interaction)
 Visuals: Recharts, SVG Physics Simulation, Tailwind CSS
 APIs: @google/genai SDK
+
 Challenges we ran into
+
 The primary challenge was abstracting high-dimensional biology into a 2D interface. Representing "Epigenetic Constraints" or "Metabolic Flexibility" as simple indices required a translation layer that mapped thousands of data points into six understandable domains without losing clinical nuance. Ensuring the AI correctly interpreted the mathematical relationship between "Rigidity" and "Collapse Risk" in the prompt context was also a significant hurdle.
 
 Accomplishments that we're proud of
